@@ -1,0 +1,10 @@
+# --- Private working notes — NEVER publish (contain credentials) ---
+files/Website_Notes.docx
+files/notes*.png
+
+# Redundant source duplicate of profile.jpg (spaced filename)
+images/Calm Office.jpg
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
