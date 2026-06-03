@@ -1092,6 +1092,26 @@ p { color: var(--ink-soft); margin: 0 0 16px 0; }
     gap: 10px;
   }
   .pub-year, .talk-tag { width: fit-content; }
-  .stats, .stats.stats-3 { grid-template-columns: repeat(2, 1fr); }
+  .stats, .stats.stats-3, .stats.stats-4 { grid-template-columns: repeat(2, 1fr); }
   .skills-grid { grid-template-columns: 1fr; gap: 18px; }
+}
+
+/* ============================================================
+   HERO — lighter-blue accent (overrides teal in the profile area)
+   ============================================================ */
+.hero .role-line { color: #0284c7; }
+.hero .dot { background: #38bdf8; }
+.hero .hero-photo-ring { border-color: #38bdf8; }
+.hero .blob-1 { background: #7dd3fc; }
+.hero .btn-soft:hover { color: #0284c7; }
+
+/* 4-stat strip */
+.stats.stats-4 {
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 900px;
+  margin: 0 auto;
+  gap: 24px;
+}
+@media (max-width: 960px) {
+  .stats.stats-4 { grid-template-columns: repeat(2, 1fr); }
 }
