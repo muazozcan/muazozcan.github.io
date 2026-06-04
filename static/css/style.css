@@ -628,8 +628,8 @@ p { color: var(--ink-soft); margin: 0 0 16px 0; }
   font-family: 'JetBrains Mono', monospace;
   font-size: 13px;
   font-weight: 600;
-  color: var(--ink);
-  background: var(--surface-alt);
+  color: var(--mint-deep);
+  background: var(--mint-soft);
   padding: 6px 12px;
   border-radius: var(--radius-sm);
   text-align: center;
