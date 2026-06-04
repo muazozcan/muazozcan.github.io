@@ -1,6 +1,8 @@
 # --- Private working notes — NEVER publish (contain credentials) ---
 files/Website_Notes.docx
 files/notes*.png
+files/*Not*.docx
+files/Websitesi_Nots*.docx
 
 # Redundant source duplicate of profile.jpg (spaced filename)
 images/Calm Office.jpg
